@@ -1,0 +1,49 @@
+* {
+    text-align: center;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(starwars.jpg);
+    background-size: cover;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 100px;
+}
+
+#pergunta-container {
+    width: 70%;
+    height: 90%;
+    display: block;
+    margin: 30px auto   ;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0px 0px 100px white;
+}
+
+button {
+    color: white;
+    margin-top: 50px;
+}
+
+#answer-no {
+    font-size: 30px;
+    margin-left: 50px;
+    background-color: rgb(252, 5, 141);
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px black;
+}
+
+#answer-yes {
+    font-size: 30px;
+    margin-left: -150px;
+    background-color: rgb(69, 2, 254);
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px black;
+}
